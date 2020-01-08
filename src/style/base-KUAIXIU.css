@@ -1,0 +1,55 @@
+.el-header {
+  background-color: #1b6261;
+}
+#app .sidebar-container {
+  background-color: #1b6261;
+}
+.sidebar-logo-container {
+  background-color: #fef5eb !important;
+  height: 70px !important;
+  line-height: 70px !important;
+}
+.playerBg {
+  background-color: #27272f;
+}
+.fixedHead .el-menu {
+  background-color: #1b6261 !important;
+}
+.fixedHead .el-menu-item.submenu-title-noDropdown {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+.fixedHead .el-menu-item.is-active {
+  color: #a2fedf !important;
+  border-bottom: 2px solid #a2fedf !important;
+}
+.fixedHead .el-menu-item:not(.is-disabled):hover {
+  background-color: #ebfeff !important;
+  color: #1b6261 !important;
+}
+.fixedHead .el-menu-item.is-active:hover {
+  background-color: transparent !important;
+  color: #a2fedf !important;
+}
+
+.el-menu--horizontal>.el-submenu .el-submenu__title:hover {
+  background-color: #ebfeff !important;
+  color: #1b6261 !important;
+}
+.el-menu--horizontal>.el-submenu.is-active .el-submenu__title {
+  color: #a2fedf !important;
+  border-bottom: 2px solid #a2fedf !important;
+}
+.el-menu--horizontal>.el-submenu.is-active:hover .el-submenu__title {
+  background-color: transparent !important;
+}
+.el-menu--horizontal .el-menu.el-menu--popup {
+  background-color: #1b6261 !important;
+}
+.el-menu--horizontal .el-menu.el-menu--popup .el-menu-item.is-active {
+  color: #a2fedf !important;
+}
+.el-menu--horizontal .el-menu.el-menu--popup .el-menu-item:not(.is-disabled):hover {
+  background-color: #ebfeff !important;
+  color: #1b6261 !important;
+}

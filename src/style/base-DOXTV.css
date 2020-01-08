@@ -1,0 +1,19 @@
+.el-header {
+  background-color: #27272f;
+}
+.sidebar-logo-container {
+  height: 70px !important;
+  line-height: 70px !important;
+}
+.playerBg {
+  background-color: #27272f;
+}
+.fixedHead .el-menu-item.is-active:hover {
+  background-color: transparent !important;
+}
+.el-menu--horizontal .el-menu.el-menu--popup {
+  background-color: #27272f !important;
+}
+.el-menu--horizontal>.el-submenu.is-active:hover .el-submenu__title {
+  background-color: transparent !important;
+}

@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.el-header {
+  padding: 0;
+}
+.el-main {
+  padding: 0;
+  margin-top: 60px;
+}
+.el-carousel__container {
+  height: calc(100vw / 4);
+}
+.el-carousel__item img {
+  width: 100%;
+}
+
+.uploadFormCont .el-form-item__content {
+  text-align: left;
+}
+.fixedHead {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.fixedHead .el-menu-item {
+  font-size: 15px;
+}
+.fixedHead .el-menu.el-menu--horizontal {
+  border: none;
+}
+
+.cateCont {
+  position: relative;
+  margin: 10px 0;
+}
+.cateCont + .cateCont {
+  margin-top: 30px;
+}
+.cateCont .el-tabs__nav-wrap {
+  margin-left: 75px;
+}
+.tabCate {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 24px;
+  color: #333;
+  line-height: 55px;
+  text-decoration: none;
+  font-weight: 700;
+  z-index: 1;
+}
+.tabCate:hover {
+  color: #148aff;
+}
+.fixedHead path { 
+  fill: inherit !important
+}
